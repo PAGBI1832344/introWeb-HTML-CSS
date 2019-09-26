@@ -1,9 +1,45 @@
-@charset="UTF-8";
+@charset"UTF-8";
 /* enlève toutes les marges et les espaces fait par le navigateur qui sont des valeurs par défaut*/
 body{margin: 0; padding: 0;}
-/*
 #main {
-	display: flex;
-	flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
 }
-*/
+header{
+    width: 100%;
+    height: 100%;
+    border: 5px;
+    background-color: aqua;
+    display:flex;
+}
+aside {
+    display:flex;
+
+    background-color: yellow;
+    width: 20%  ;
+    height: 100% ;
+}
+
+
+section {
+    align-items: center;
+    display: flex;
+    width: 60%;
+    height:100%;
+    background-color: chartreuse;
+}
+footer {
+    background-color: darkgoldenrod;
+}
+#gauche {
+    order: 1;
+}
+#droite{
+    order: 3;
+}
+#centre {
+    order:2 ;
+}
+#bas {
+    order: 4;
+}
