@@ -1,0 +1,32 @@
+/* ====================================
+   CSS setup ��ne rien modifier
+   �diter plus bas
+ * ==================================== */
+body { margin: 0; padding: 0; border: 0; }
+.boite{
+    min-height: 75px;
+    min-width: 75px;
+    flex-basis: 50%;
+}
+.element1{ background-color: #1abc9c; }
+.element2{ background-color: #3498db; }
+.element3{ background-color: #9b59b6; }
+.element4{ background-color: #e67e22; }
+.element5{ background-color: #e74c3c; }
+.element6{background-color: #05ffb0; }
+
+/* ====================================
+   �diter � partir d'ici
+ * ==================================== */
+section {
+    background-color: lightgrey;
+    flex-wrap: wrap;
+    display: flex;
+
+}
+
+.element6,.element1,.element2,.element4,.element5,.element3{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
