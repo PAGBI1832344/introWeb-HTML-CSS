@@ -12,12 +12,17 @@ header{
     background-color: aqua;
     display:flex;
 }
+header:hover{
+    background-color: grey;
+}
 aside {
     display:flex;
     align-items: right;
     background-color: yellow;
     width: 25%  ;
-    height: 465px ;
+    height: 500px ;
+    flex-direction: column;
+    text-align: center;
 }
 
 
@@ -25,8 +30,10 @@ section {
 
     display: flex;
     width: 50%;
-    height:465px;
+    height:500px;
     background-color: chartreuse;
+    justify-content: space-around;
+    flex-direction: row;
 }
 footer {
     background-color: darkgoldenrod;
@@ -36,12 +43,16 @@ footer {
 }
 #gauche {
     order: 1;
+
 }
 #droite{
     order: 3;
+
 }
 #centre {
     order:2 ;
+    flex-direction: column;
+    height: 100%;
 }
 #bas {
     order: 4;
